@@ -18,41 +18,45 @@ audio{
     display: none;
 }
 
-.page .number{
-    width: 25%;
-    padding: 3% 4%;
-    background-color: #fff;
+.page .title{
+    width: 100%;
+    /* padding-top: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    position: relative;
 }
 
-.page .content{
-    width: 100%;
-    padding: 10% 12%;
-    padding-left: 5%;
-    background-color: #fff;
-    position: relative;
+.page .title .BtnArea{
+    position: absolute;
+    width: 13%;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
 }
 
 .page .swiper-slide .InnerImg{
     width: 100%;
-    padding-top: 88%;
+    padding-top: 85%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 
-.page .content .Btn{
+.page .BtnArea .Btn{
     position: absolute;
-    top: 20%;
-    right: 20%;
-    width: 13%;
+    top: 0%;
+    right: 0%;
+    width: 100%;
     cursor: pointer;
 }
 
-.page .content .playBtn{
+.page .BtnArea .playBtn{
     z-index: 3;
 }
 
-.page .content .pauseBtn{
+.page .BtnArea .pauseBtn{
     z-index: 2;
 }
