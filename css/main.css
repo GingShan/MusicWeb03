@@ -30,7 +30,7 @@ audio{
 .page .title .BtnArea{
     position: absolute;
     width: 13%;
-    bottom: 20%;
+    bottom: 30%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 3;
