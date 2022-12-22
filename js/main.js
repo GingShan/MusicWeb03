@@ -1,74 +1,74 @@
 $(function () {
   $("#PlayBtn").click(() => {
-    $("#PlayBtn").fadeOut(800);
-    $("#PauseBtn").fadeIn(800);
+    $("#PlayBtn").fadeOut(500);
+    $("#PauseBtn").fadeIn(500);
   });
   $("#PauseBtn").click(() => {
-    $("#PlayBtn").fadeIn(800);
-    $("#PauseBtn").fadeOut(800);
+    $("#PlayBtn").fadeIn(500);
+    $("#PauseBtn").fadeOut(500);
   });
 
   $("#PlayBtn2").click(() => {
-    $("#PlayBtn2").fadeOut(800);
-    $("#PauseBtn2").fadeIn(800);
+    $("#PlayBtn2").fadeOut(500);
+    $("#PauseBtn2").fadeIn(500);
   });
   $("#PauseBtn2").click(() => {
-    $("#PlayBtn2").fadeIn(800);
-    $("#PauseBtn2").fadeOut(800);
+    $("#PlayBtn2").fadeIn(500);
+    $("#PauseBtn2").fadeOut(500);
   });
 
   $("#PlayBtn3").click(() => {
-    $("#PlayBtn3").fadeOut(800);
-    $("#PauseBtn3").fadeIn(800);
+    $("#PlayBtn3").fadeOut(500);
+    $("#PauseBtn3").fadeIn(500);
   });
   $("#PauseBtn3").click(() => {
-    $("#PlayBtn3").fadeIn(800);
-    $("#PauseBtn3").fadeOut(800);
+    $("#PlayBtn3").fadeIn(500);
+    $("#PauseBtn3").fadeOut(500);
   });
 
   $("#PlayBtn4").click(() => {
-    $("#PlayBtn4").fadeOut(800);
-    $("#PauseBtn4").fadeIn(800);
+    $("#PlayBtn4").fadeOut(500);
+    $("#PauseBtn4").fadeIn(500);
   });
   $("#PauseBtn4").click(() => {
-    $("#PlayBtn4").fadeIn(800);
-    $("#PauseBtn4").fadeOut(800);
+    $("#PlayBtn4").fadeIn(500);
+    $("#PauseBtn4").fadeOut(500);
   });
 
   $("#PlayBtn5").click(() => {
-    $("#PlayBtn5").fadeOut(800);
-    $("#PauseBtn5").fadeIn(800);
+    $("#PlayBtn5").fadeOut(500);
+    $("#PauseBtn5").fadeIn(500);
   });
   $("#PauseBtn5").click(() => {
-    $("#PlayBtn5").fadeIn(800);
-    $("#PauseBtn5").fadeOut(800);
+    $("#PlayBtn5").fadeIn(500);
+    $("#PauseBtn5").fadeOut(500);
   });
 
   $("#PlayBtn6").click(() => {
-    $("#PlayBtn6").fadeOut(800);
-    $("#PauseBtn6").fadeIn(800);
+    $("#PlayBtn6").fadeOut(500);
+    $("#PauseBtn6").fadeIn(500);
   });
   $("#PauseBtn6").click(() => {
-    $("#PlayBtn6").fadeIn(800);
-    $("#PauseBtn6").fadeOut(800);
+    $("#PlayBtn6").fadeIn(500);
+    $("#PauseBtn6").fadeOut(500);
   });
 
   $("#PlayBtn7").click(() => {
-    $("#PlayBtn7").fadeOut(800);
-    $("#PauseBtn7").fadeIn(800);
+    $("#PlayBtn7").fadeOut(500);
+    $("#PauseBtn7").fadeIn(500);
   });
   $("#PauseBtn7").click(() => {
-    $("#PlayBtn7").fadeIn(800);
-    $("#PauseBtn7").fadeOut(800);
+    $("#PlayBtn7").fadeIn(500);
+    $("#PauseBtn7").fadeOut(500);
   });
 
   $("#PlayBtn8").click(() => {
-    $("#PlayBtn8").fadeOut(800);
-    $("#PauseBtn8").fadeIn(800);
+    $("#PlayBtn8").fadeOut(500);
+    $("#PauseBtn8").fadeIn(500);
   });
   $("#PauseBtn8").click(() => {
-    $("#PlayBtn8").fadeIn(800);
-    $("#PauseBtn8").fadeOut(800);
+    $("#PlayBtn8").fadeIn(500);
+    $("#PauseBtn8").fadeOut(500);
   });
 })
 
