@@ -38,10 +38,36 @@ audio{
 
 .page .swiper-slide .InnerImg{
     width: 100%;
-    padding-top: 87%;
+    padding-top: 94%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    position: relative;
+}
+
+.swiper-slide .InnerImg .arrow{
+    position: absolute;
+    bottom: 1%;
+    right: 3%;
+    width: 5vw;
+    animation-name: move;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    transform: translateX(0px);
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-17px);
+    }
+    75%{
+        transform: translateX(0px);
+    }
 }
 
 
